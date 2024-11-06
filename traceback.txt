@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 1384, in script
+    Kiai "Sabar... sabar.. Ki. Saya tidak ada niat untuk mempermainkan Ki Hanggolono. Tapi, penglihatan saya memang begitu. Kalau Ki Hanggolono tidak percaya, silakan buka peti-peti itu."
+Exception: Sayer 'Kiai' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 1384, in script
+    Kiai "Sabar... sabar.. Ki. Saya tidak ada niat untuk mempermainkan Ki Hanggolono. Tapi, penglihatan saya memang begitu. Kalau Ki Hanggolono tidak percaya, silakan buka peti-peti itu."
+  File "/home/cicag/Downloads/JokoLancur-1.0-pc/renpy/ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/home/cicag/Downloads/JokoLancur-1.0-pc/renpy/ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Kiai' is not defined.
+
+Linux-6.5.0-14-generic-x86_64-with-glibc2.35 x86_64
+Ren'Py 8.0.3.22090809
+Joko Lancur 1.0
+Sat Feb 10 22:12:46 2024
